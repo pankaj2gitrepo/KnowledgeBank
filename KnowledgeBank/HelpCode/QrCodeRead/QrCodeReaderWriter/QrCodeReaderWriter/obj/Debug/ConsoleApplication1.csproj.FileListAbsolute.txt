@@ -1,0 +1,8 @@
+D:\Pankaj\StudyP\HelpCode\QrCodeRead\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+D:\Pankaj\StudyP\HelpCode\QrCodeRead\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.csprojResolveAssemblyReference.cache
+D:\Pankaj\StudyP\HelpCode\QrCodeRead\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+D:\Pankaj\StudyP\HelpCode\QrCodeRead\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+D:\Pankaj\StudyP\HelpCode\QrCodeRead\ConsoleApplication1\ConsoleApplication1\bin\Debug\BarcodeLib.BarcodeReader.dll
+D:\Pankaj\StudyP\HelpCode\QrCodeRead\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+D:\Pankaj\StudyP\HelpCode\QrCodeRead\ConsoleApplication1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+D:\Pankaj\StudyP\HelpCode\QrCodeRead\ConsoleApplication1\ConsoleApplication1\bin\Debug\Aspose.BarCode.dll

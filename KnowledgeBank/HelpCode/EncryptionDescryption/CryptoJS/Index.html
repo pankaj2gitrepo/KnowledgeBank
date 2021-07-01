@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="crypto-js/core-min.js"></script>
+<script src="crypto-js/enc-utf16-min.js"></script>
+<script src="crypto-js/enc-base64-min.js"></script>
+<script src="crypto-js/aes.js"></script>
+<script>
+ $(function() {
+  $('#test').on('submit', function() {
+   var plaintext = $('#text').val();
+   var secret = $('#secret').val();
+   var encrypted = '' + CryptoJS.AES.encrypt(plaintext, secret);
+   $("#output").prepend("<br/>Encrypted: " + encrypted);
+   var decrypted = CryptoJS.AES.decrypt(encrypted, secret);
+   $("#output").prepend("<br/><br/> Original From Encrypted: " + decrypted.toString(CryptoJS.enc.Utf8));
+
+   return false;
+  });  
+ });   
+</script>
+</head> 
+<body lang="en">  
+    <form id="test">
+        <p>
+            <label>Secret</label><br>
+            <input id="secret" value="Secret Passphrase">
+        </p>
+        <p>
+            <label>Text</label><br>
+            <textarea id="text">This is the secret message</textarea>
+        </p>
+        <input type="submit" id="submit">
+    </form>
+    <div id="output"></div>  
+</body>
+</html>
